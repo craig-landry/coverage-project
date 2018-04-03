@@ -1,4 +1,5 @@
 require 'spec_helper'
+SingleCov.covered!
 
 describe Book do
   subject { Book.new(pages: pages) }
